@@ -4,12 +4,12 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ### Screenshot
 
-![](./public/Screenshot.png)
+![](./public/Screenshot.jpeg)
 
 ### Links
 
-- Solution URL: [Solution URL here](https://github.com/NDK1195/intro-component-with-signup-form)
-- Live Site URL: [Live site URL here](https://intro-component-with-signup-form-blue-tau.vercel.app/)
+- Solution URL: [Solution URL here](https://github.com/NDK1195/interactive-pricing-component)
+- Live Site URL: [Live site URL here](https://interactive-pricing-component-ecru.vercel.app/)
 
 ### Built with
 
