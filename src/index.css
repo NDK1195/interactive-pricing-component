@@ -9,3 +9,43 @@
     font-family: "Manrope", serif;
   }
 }
+input[type="range"] {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  width: 100%; /* Specific width is required for Firefox. */
+  background: transparent; /* Otherwise white in Chrome */
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type="range"]:focus {
+  outline: none; /* Removes the blue border. */
+}
+
+input[type="range"]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+
+  /* Hides the slider so custom styles can be added */
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+/* Thumb */
+/* Special styling for WebKit/Blink */
+input[type="range"]::-webkit-slider-thumb {
+  @apply bg-icon-slider -mt-4 size-10 cursor-pointer rounded-full bg-strong-cyan bg-center bg-no-repeat shadow-slider transition-colors hover:bg-[#7AEADF];
+}
+/* All the same stuff for Firefox */
+input[type="range"]::-moz-range-thumb {
+  @apply bg-icon-slider -mt-4 size-10 cursor-pointer rounded-full border-none bg-strong-cyan bg-center bg-no-repeat shadow-slider transition-colors hover:bg-[#7AEADF];
+}
+/* Track */
+input[type="range"]::-webkit-slider-runnable-track {
+  @apply h-2 w-full rounded-[5px];
+}
+input[type="range"]::-moz-range-track {
+  @apply h-2 w-full rounded-[5px];
+}

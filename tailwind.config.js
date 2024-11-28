@@ -19,6 +19,9 @@ export default {
         "grayish-blue": "hsl(225, 20%, 60%)",
         "dark-desaturated-blue": "hsl(227, 35%, 25%)",
       },
+      backgroundImage: {
+        "icon-slider": 'url("/src/images/icon-slider.svg")',
+      },
     },
   },
   plugins: [],
